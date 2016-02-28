@@ -1,6 +1,6 @@
 # El Granto Daddy Blog
 
-TODO: I'm going to make and start a daddy blog on Jekyll.
+I'm going to make and start a daddy blog on Jekyll.
 
 ## TODO
 * Install Jekyll		-DONE!
