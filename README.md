@@ -3,11 +3,12 @@
 TODO: I'm going to make and start a daddy blog on Jekyll.
 
 ## TODO
-* Jekyll
-* Sass
+* Install Jekyll
+* Install Gulp stuff
+* Customize Jekyll
 * Foundation?
 * CSS framework?
-* Gulp stuff
+* Design
 
 ## Installation
 
