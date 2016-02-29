@@ -1,9 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
-
-
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,7 +25,15 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Color palette https://coolors.co/app/13293d-006494-247ba0-1b98e0-e8f1f2
 
+$palette-dark-color:	#13293d; //rgba(19, 41, 61, 100)
+$palette-middle-color:	#006494; //rgba(0, 100, 148, 100)
+$palette-light-color:	#247ba0; //rgba(36, 123, 160, 100)
+$palette-accent-color:	#1b98e0; //rgba(27, 152, 224, 100)
+$palette-white-color:	#e8f1f2; //rgba(232, 241, 242, 100)
+
+@import url(https://fonts.googleapis.com/css?family=Cookie);
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -49,5 +54,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "custom"
 ;
