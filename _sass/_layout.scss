@@ -5,10 +5,21 @@
     //border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
     min-height: 100px;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    #famPortrait {
+        height: 117px;
+        width:30%;
+        float: right;
+        background: url(/assets/images/pixelFamily.png) no-repeat; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 }
 
 .site-title {
@@ -17,7 +28,6 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
     font-family: 'Cookie', cursive;
 
     &,
@@ -27,20 +37,42 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+
+    width: 60%;
+    padding-top: calc(#{$spacing-unit} * 2);
+    float:left;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $palette-white-color;
         line-height: $base-line-height;
+        padding: 0 20px;
 
         // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
+        //&:not(:last-child) {
+        //    margin-right: 20px;
+        //}
+    }
+
+    ul {
+        margin: 0;
+
+        li {
+            float: left;
+            list-style: none;
+            border-top: 2px solid #e8f1f2;
+            border-left: 2px solid #e8f1f2;
+            //border-right: 2px solid #e8f1f2;
+            margin: 0;
+
+            // Gaps between nav items, but not on the last one
+            &:last-child {
+                border-right: 2px solid #e8f1f2;
+            }
+
         }
     }
 
@@ -72,7 +104,7 @@
             }
         }
 
-        .trigger {
+        /*.trigger {
             clear: both;
             display: none;
         }
@@ -80,7 +112,7 @@
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
-        }
+        }*/
 
         .page-link {
             display: block;
