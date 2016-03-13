@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Late one December evening in 2015 my wife sat down beside me and said two words that would forever change my life.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+"I'm pregnant."
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+During the nexe few sleepless nights and days we came up with a plan on how to move forward with our lives with the upcoming baby to be. Rough plans for leave and birth and informing parents and friends slowly came together and the idea to start up an offshoot of our other blog <a href="http://www.storefrontlife.com" target="_blank">Storefront Life</a> was planted.
+
+So here you go. Here's my adventures with Pixel.
