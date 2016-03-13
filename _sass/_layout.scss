@@ -36,97 +36,19 @@
     }
 }
 
-.site-nav {
+#site-menu {
+    background: none;
 
-    width: 60%;
-    padding-top: calc(#{$spacing-unit} * 2);
-    float:left;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $palette-white-color;
-        line-height: $base-line-height;
-        padding: 0 20px;
-
-        // Gaps between nav items, but not on the last one
-        //&:not(:last-child) {
-        //    margin-right: 20px;
-        //}
-    }
-
-    ul {
-        margin: 0;
+    ul{
+        background:none;
 
         li {
-            float: left;
-            list-style: none;
-            border-top: 2px solid #e8f1f2;
-            border-left: 2px solid #e8f1f2;
-            //border-right: 2px solid #e8f1f2;
-            margin: 0;
-
-            // Gaps between nav items, but not on the last one
-            &:last-child {
-                border-right: 2px solid #e8f1f2;
-            }
-
+            background: #e8f1f2;
+            border-radius: 10px;
         }
     }
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        /*.trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }*/
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
 }
-
-
 
 /**
  * Site footer
