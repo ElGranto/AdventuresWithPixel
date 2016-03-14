@@ -21,6 +21,8 @@ body {background: $palette-dark-color;}
 	}
 }
 
+.accordion-title h3{margin:0;}
+
 @include media-query($on-palm) {
 	// making the nav pretty for mobile
 

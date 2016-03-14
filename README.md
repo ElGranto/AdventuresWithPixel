@@ -5,6 +5,7 @@ I'm going to make and start a daddy blog on Jekyll.
 ## TODO
 - [x] Install Jekyll			-DONE!
 - [x] Foundation framework		-DONE!
+- [x] Add comments				-DONE!
 - [ ] Customize Jekyll
 - [ ] Design
 
