@@ -6,13 +6,13 @@ author: El Granto
 comments: true
 ---
 
-I'm not sure how to star this blog. So I'll put a list of questions and answers and you can read the ones you want.
+I'm not sure how to start this blog. So I'll put a list of questions and answers and you can read the ones you want.
 
 <ul class="accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
   <li class="accordion-item" data-accordion-item>
     <a href="#" class="accordion-title"><h3>Q: "What's up wih your name man?"</h3></a>
     <div class="accordion-content clearfix" data-tab-content>
-    	A: Long ago in a life that seems more dream and less reality now I was given a tshirt from a good friend for my birthday that said "El Granto" on it. The rest was history. If you want to learn more you can check out this post on our sister site <a href="http://www.storefrontlife.com/el-granto/" target="_balnk">Storefront Life</a>.
+    	A: Long ago in a life that seems more dream and less reality now I was given a tshirt from a good friend for my birthday that said "El Granto" on it. The rest was history. If you want to learn more you can check out this post on our sister site <a href="http://www.storefrontlife.com/el-granto/" target="_blank">Storefront Life</a>.
     </div>
   </li>
   <li class="accordion-item" data-accordion-item>
@@ -32,7 +32,7 @@ I'm not sure how to star this blog. So I'll put a list of questions and answers 
     <a href="#" class="accordion-title"><h3>Q: "What kind of bike is that?"</h3></a>
     <div class="accordion-content clearfix" data-tab-content>
     	<img src="/assets/images/grantoBike.jpg" class="float-right" style="width:26rem;" alt="">
-    	A: Odin is a Hungarian Vizsla, also known as a velcro dog. As a breed they are well known for never wanting to leave your side and always needing a cuddle. Odin can usually be found in whatever room El Granto is in either curled up under a blanket or looking for some way to cause trouble.
+    	A: 2014 Triumph Thruxton. Her name is Betty and Kristen get's mad when I call the bike "My number one main bitch".
     </div>
   </li>
   <li class="accordion-item" data-accordion-item>

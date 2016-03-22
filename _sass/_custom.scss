@@ -4,6 +4,9 @@
 
  @charset "utf-8";
 
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
 body {background: $palette-dark-color;} 
 .page-content {background: $palette-white-color;}
 .site-header {
@@ -14,11 +17,20 @@ body {background: $palette-dark-color;}
 	}
 }
 
+.site-title {
+    font-family: 'Cookie', cursive;
+}
+
+h1, h2, h3, h4, h5, h6{ font-family: 'Roboto Slab', serif; } 
 
 #site-menu{
 	ul{
 		li{margin-right: .5rem;}
 	}
+}
+
+.home {
+	.post-title {margin-bottom:0;}
 }
 
 .accordion-title h3{margin:0;}
