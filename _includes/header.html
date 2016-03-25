@@ -1,17 +1,12 @@
-<header class="site-header">
+<header id="site-header">
 
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">Menu</div>
-    </div>
-
-    <div class="top-bar" id="site-menu">
+    <nav class="top-bar" id="site-menu">
       <div class="top-bar-left">
-        <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
+        <ul class="dropdown menu" data-dropdown-menu>
           {% for my_page in site.pages %}
             {% if my_page.title %}
               <li>
@@ -21,13 +16,13 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="top-bar-right">
-        <!--ul class="menu">
+      <!--div class="top-bar-right">
+        <ul class="menu">
           <li><input type="search" placeholder="Search"></li>
           <li><button type="button" class="button">Search</button></li>
-        </ul-->
-      </div>
-    </div>
+        </ul>
+      </div-->
+    </nav>
 
   </div>
 
