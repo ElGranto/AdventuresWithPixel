@@ -1,0 +1,199 @@
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$text-color:       #111;
+
+$spacing-unit:     2rem;
+
+// Width of the content area
+$content-width:    1000px;
+
+// Color palette https://coolors.co/app/13293d-006494-247ba0-1b98e0-e8f1f2
+
+$palette-dark-color:  #13293d; //rgba(19, 41, 61, 100)
+$palette-middle-color:  #006494; //rgba(0, 100, 148, 100)
+$palette-light-color: #247ba0; //rgba(36, 123, 160, 100)
+$palette-accent-color:  #1b98e0; //rgba(27, 152, 224, 100)
+$palette-white-color: #e8f1f2; //rgba(232, 241, 242, 100)
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// font imports
+
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+// Layout
+
+main {
+  //@include grid-row;
+  article {
+    header, div:first { 
+      @include grid-column(12);
+    }
+  }
+}
+
+header#site-header {
+  background: $palette-middle-color;
+  min-height: 100px;
+  padding: $spacing-unit 0 0;
+  .wrapper {
+      @include breakpoint(small only) {
+        background: url("/assets/images/pixelFamily.png") top center no-repeat;
+        background-size: contain;
+        padding-top: 12.5rem;
+        margin: 0 .5rem;
+      }
+      @include breakpoint(medium) {
+        background: url("/assets/images/pixelFamily.png") top right no-repeat;
+        background-size: contain;
+      }
+  }
+  .site-title {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    font-family: 'Cookie', cursive;
+
+    &,
+    &:visited {
+        color: $palette-white-color;
+    }
+  }
+}
+
+main {
+  background: $palette-white-color;
+  .wrapper {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+  }
+}
+
+footer {
+  background: $palette-dark-color;
+  color: $palette-white-color;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+}
+
+header#site-header, main, footer {
+    .wrapper {
+      @include breakpoint(medium) {
+        max-width: calc(#{$content-width} + (#{$spacing-unit * 2}));
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+        margin: 0 auto;
+      }
+    }
+}
+
+#site-menu{
+    background: none;
+    ul{
+        background:none;
+        li {
+            background: #e8f1f2;
+            border-radius: 10px;
+            margin-right: .5rem;
+        }
+    }
+}
+
+// Typography
+
+h1, h2, h3, h4, h5, h6{ font-family: 'Roboto Slab', serif; }
+
+/**
+ * Links
+ */
+a {
+    $link-color: #2a7ae2;
+    color: $link-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($link-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include breakpoint(medium) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include breakpoint(medium) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include breakpoint(medium) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include breakpoint(medium) {
+            font-size: 18px;
+        }
+    }
+}
+
+#disqus_thread {
+  margin-top: $spacing-unit * 2;
+}

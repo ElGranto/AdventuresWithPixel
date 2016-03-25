@@ -2,6 +2,8 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-02-27 08:35:33 -0500
+author: El Granto
+comments: true
 categories: jekyll update
 ---
 

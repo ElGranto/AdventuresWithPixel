@@ -1,16 +1,17 @@
 ---
 layout: post
-title: A New blog for a new chapter in life
-date:   2016-03-13
+title:  "Welcome to Jekyll!"
+date:   2016-02-27 08:35:33 -0500
 author: El Granto
 comments: true
+categories: jekyll update
 ---
 
-I'm not sure how to start this blog. So I'll put a list of questions and answers and you can read the ones you want.
+The first post on a blog is sometimes the hardest. Do we introduce ourselves? I don't know. So I'll put a list of questions and answers and you can read the ones you want.
 
 <ul class="accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
   <li class="accordion-item" data-accordion-item>
-    <a href="#" class="accordion-title"><h3>Q: "What's up wih your name man?"</h3></a>
+    <a href="#" class="accordion-title"><h3>Q: "What's up with your name man?"</h3></a>
     <div class="accordion-content clearfix" data-tab-content>
     	A: Long ago in a life that seems more dream and less reality now I was given a tshirt from a good friend for my birthday that said "El Granto" on it. The rest was history. If you want to learn more you can check out this post on our sister site <a href="http://www.storefrontlife.com/el-granto/" target="_blank">Storefront Life</a>.
     </div>
@@ -18,7 +19,7 @@ I'm not sure how to start this blog. So I'll put a list of questions and answers
   <li class="accordion-item" data-accordion-item>
     <a href="#" class="accordion-title"><h3>Q: "What's up with "Pixel"?"</h3></a>
     <div class="accordion-content clearfix" data-tab-content>
-    	A: During her first trimester Kristen was in and out of the doctors office a lot. She was concidered a high risk pregnancy as she has a very extreme case of celiac desease. During our fist ultrasoud we were able to see the faintest of heart beats. Just a little flashing pixel on the screen. From that moment on what most people call their "Peanut" we called our "Pixel".
+    	A: During her first trimester Kristen was in and out of the doctors office a lot. She was concidered a high risk pregnancy as she has a very extreme case of celiac desease. During our fist ultrasoud we were able to see the faintest of heart beats. Just a little flashing pixel on the screen. From that moment on what most people call their "Peanut" we called ours "Pixel".
     </div>
   </li>
   <li class="accordion-item" data-accordion-item>
@@ -42,4 +43,5 @@ I'm not sure how to start this blog. So I'll put a list of questions and answers
     </div>
   </li>
 </ul>
+
 [granto-link]: http://www.elgranto.com
