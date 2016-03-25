@@ -4,7 +4,6 @@ title:      A New blog for a new chapter in life
 date:       2016-03-25
 author:     El Granto
 comments:   true
-categories: jekyll update
 ---
 
 The first post on a blog is sometimes the hardest. Do we introduce ourselves? I don't know. So I'll put a list of questions and answers and you can read the ones you want.
