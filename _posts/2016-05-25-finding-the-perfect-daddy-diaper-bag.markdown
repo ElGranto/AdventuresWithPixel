@@ -63,6 +63,7 @@ Have you found the perfect Daddy Diaper bag? Cool, functional, and most impotant
 [t2]: http://www.timbuk2.com/
 [her]: http://www.herschelsupply.com/
 [fr]: http://www.fjallravencanada.com/
+[fp]: https://www.fisher-price.com/en_CA/Products/FindaProduct/baby-gear/diaper-bags/N-0Z5e
 [burton]: http://ca.burton.com/default/burton-backhill-duffel-bag-extra-small-25l/S17-166841.html?cgid=travel-duffel-bags&start=1
 [mommy-hook]: /2016/04/22/parenting-is-just-for-moms.html
 [gng]: http://www.snugglebugz.ca/double-bottle-bag.html#232=4279
