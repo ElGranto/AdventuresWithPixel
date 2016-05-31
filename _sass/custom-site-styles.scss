@@ -10,6 +10,7 @@ $spacing-unit:     2rem;
 
 // Width of the content area
 $content-width:    1000px;
+$mobile-pad:       0.5em;
 
 // Color palette https://coolors.co/app/13293d-006494-247ba0-1b98e0-e8f1f2
 
@@ -27,6 +28,33 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 @import url(https://fonts.googleapis.com/css?family=Cookie);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+// My Mixins
+
+@mixin image-alignment {
+  @each $size in $breakpoint-classes {
+    @include breakpoint($size) {
+      @each $direction in (left, right) {
+        @if $size != 'small' {
+          .#{$size}-image-#{$direction} {
+            float: $direction;
+            @if $direction != 'left' {
+              padding: 0 0 2rem 2rem;
+            }
+            @else {
+              padding: 0 2rem 2rem 0;
+            }
+          }
+        }
+        @else {
+          .image-#{$direction} {
+            float: $direction;
+          }
+        }
+      }
+    }
+  }
+}
 
 // Layout
 
@@ -62,6 +90,10 @@ header#site-header {
     letter-spacing: -1px;
     margin-bottom: 0;
     font-family: 'Cookie', cursive;
+    @include breakpoint(small only) {
+      display: inline-block;
+      text-align: center;
+    }
 
     &,
     &:visited {
@@ -72,9 +104,13 @@ header#site-header {
 
 main {
   background: $palette-white-color;
+  padding: $mobile-pad;
   .wrapper {
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;
+    @include breakpoint(small only) {
+      padding: $mobile-pad;
+    }
   }
 }
 
@@ -83,6 +119,9 @@ footer {
   color: $palette-white-color;
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
+  @include breakpoint(small only) {
+    padding: $mobile-pad;
+  }
 }
 
 header#site-header, main, footer {
