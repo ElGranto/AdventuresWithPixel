@@ -1,0 +1,34 @@
+{
+  "name": "adventureswithpixel",
+  "version": "1.0.0",
+  "description": "Adventures with pixel blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElGranto/AdventuresWithPixel.git"
+  },
+  "keywords": [
+    "daddy",
+    "blog",
+    "parenting",
+    "Pixel",
+    "El",
+    "Granto",
+    "Odin"
+  ],
+  "author": "El Granto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElGranto/AdventuresWithPixel/issues"
+  },
+  "homepage": "https://github.com/ElGranto/AdventuresWithPixel#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.12",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-util": "^3.0.7"
+  }
+}

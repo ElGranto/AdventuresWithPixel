@@ -6,7 +6,7 @@ author:     El Granto
 comments:   true
 ---
 
-Being involved with Pixel is of the upmost importance to me. So much so that I'm taking the parental leave while Kristen goes back to work.  
+Being involved with Pixel is of the upmost importance to me. So much so that I'm taking the parental leave while Kristen goes back to work.
 
 This leaves me in a little bit of a predicament. I'm not fond of the idea of carrying around Kristen's Coach diaper bag. No matter how fancy it is it still looks like a purse and she strictly forbid me from sewing any motorcycle patches on it. 
 
