@@ -6,7 +6,7 @@ author:     El Granto
 comments:   true
 ---
 
-A rose by any other name,
+A rose by any other name,<!--more-->
 
 <img src="/assets/images/flower-156608_640.png" class="float-right" style="width:18rem; padding-left:2rem;" alt="">Would still be a penis?
 

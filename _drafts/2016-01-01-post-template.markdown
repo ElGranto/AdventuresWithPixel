@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      A New blog for a new chapter in life
-date:       2016-03-25
+title:      Post template
+date:       2016-01-01
 author:     El Granto
 comments:   true
 ---

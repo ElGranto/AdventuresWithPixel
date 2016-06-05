@@ -6,7 +6,7 @@ author:     El Granto
 comments:   true
 ---
 
-Everything's for Moms. What about me?
+Everything's for Moms. What about me?<!--more-->
 
 <img src="/assets/images/MommyHook.JPG" class="float-right" style="width:23rem; padding:0 0 2rem 2rem;" alt="">Something K really wanted as an attachment for the stroller is "The Mommy Hook". Essentially a giant carabiner for hanging shopping bags or a purse or what-have-you on the stroller. 
 

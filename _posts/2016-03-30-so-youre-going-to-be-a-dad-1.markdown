@@ -6,9 +6,9 @@ author:     El Granto
 comments:   true
 ---
 
-You're gonna be a Dad! - Survival preparedness for new dads: Part 1
+So you're going to be a new dad hey? What now?<!--more-->
 
-<img src="/assets/images/costumes-625440_640.jpg" class="float-left" style="width:18rem; padding-right:2rem;" alt="">So you're going to be a new dad hey? Once you're done freaking out there's a few thing you need to consider, buy, and prepare. Ok let's not sugar coat it. There's a lot you need to consider, a lot you need to prepare, and even more that you need to buy. 
+<img src="/assets/images/costumes-625440_640.jpg" class="float-left" style="width:18rem; padding:0 1rem 1rem 0;" alt="">Once you're done freaking out there's a few thing you need to consider, buy, and prepare. Ok let's not sugar coat it. There's a lot you need to consider, a lot you need to prepare, and even more that you need to buy.
 
 Let's start from the second you find out. 
 

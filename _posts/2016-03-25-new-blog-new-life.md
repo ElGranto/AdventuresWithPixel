@@ -6,7 +6,7 @@ author:     El Granto
 comments:   true
 ---
 
-The first post on a blog is sometimes the hardest. Do we introduce ourselves? I don't know. So I'll put a list of questions and answers and you can read the ones you want.
+The first post on a blog is sometimes the hardest. Do we introduce ourselves? I don't know. So I'll put a list of questions and answers and you can read the ones you want.<!--more-->
 
 <ul class="accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
   <li class="accordion-item" data-accordion-item>

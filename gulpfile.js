@@ -7,9 +7,7 @@ const gutil = require('gulp-util');
 
 gulp.task('jekyll', () => {
   const jekyll = child.spawn('jekyll', ['build',
-    '--watch',
-    '--incremental',
-    '--drafts'
+    '--watch'
   ]);
 
   const jekyllLogger = (buffer) => {
