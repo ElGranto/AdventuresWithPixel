@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      A New blog for a new chapter in life
+title:      A new blog for a new chapter in life
 date:       2016-03-25
 author:     El Granto
 comments:   true

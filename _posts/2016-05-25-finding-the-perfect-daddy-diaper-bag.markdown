@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Finding the Perfect Daddy Diaper Bag
+title:      Finding the perfect Daddy diaper bag
 date:       2016-04-25
 author:     El Granto
 comments:   true
