@@ -6,8 +6,13 @@
     {% include header.html %}
 
     <main>
-      <div class="wrapper">
-        {{ content }}
+      <div class="wrapper row stretch">
+        <div id="content" class="small-12 medium-8 columns">
+          {{ content }}
+        </div>
+        <div id="sidebar" class="medium-4 columns">
+          {% include sidebar.html %}
+        </div>
       </div>
     </main>
 
@@ -20,6 +25,8 @@
     <script>
       $(document).foundation();
     </script>
+
+    {% include analytics.html %}
 
   </body>
 </html>

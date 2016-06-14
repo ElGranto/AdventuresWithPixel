@@ -6,7 +6,7 @@ author:     El Granto
 comments:   true
 ---
 
-What the heck is co-sleeping? ...<!--more-->
+What the heck is co-sleeping?<!--more-->
 
 <img src="/assets/images/birth-of-jesus-1150128_640.jpg" class="float-right" style="width:24rem; padding-left:2rem;" alt="">We have so far decided to try our little one sleeping in a bassinet beside our bed for the first little while. To help with feedings and for our own mental well-being. Sometimes you just have to check to make sure baby's still breathing. Co-sleeping doesn't sound like the right choice for us and frankly we're not thrilled about the horror stories we've heard about 5 year-olds that won't sleep if they're not with Mom and Dad. We also have a horror story of our own in the form of a 60lb Viszla who co-sleeps and can out cry any baby I've ever met. We've tried numerous times (sometimes for months) to get him off the bed to no avail. 
 

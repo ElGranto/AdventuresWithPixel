@@ -1,0 +1,19 @@
+<secttion>
+	<h2>Let's get social!</h2>
+	<div id="socialLinks" class="row small-up-3">
+		<div class="column"><a href="https://www.facebook.com/adventureswithpixel/" class="facebook">Facebook</a></div>
+		<div class="column"><a href="https://www.instagram.com/adventureswithpixel/" class="instagram">Instagram</a></div>
+		<div class="column"><a href="/feed.xml" class="rss">RSS</a></div>
+	</div>
+	<h2>Recent posts</h2>
+	<ul id="recentPosts">
+		{% for post in site.posts offset: 0 limit: 5  %}
+			<li>&raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	    {% endfor %}
+    </ul>
+	<h2>Friends of AWP</h2>
+	<ul>
+		<li><a href="http://www.storefrontlife.com" target="_blank">Storefront Life</a></li>
+		<li><a href="http://www.stanceiseverything.com" target="_blank">Stance is Everything</a></li>
+	</ul>
+</secttion>

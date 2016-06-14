@@ -104,14 +104,17 @@ header#site-header {
 
 main {
   background: $palette-white-color;
-  padding: $mobile-pad;
   .wrapper {
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
-    @include breakpoint(small only) {
-      padding: $mobile-pad;
-    }
   }
+}
+
+header#site-header, main, footer {
+    .wrapper {
+      @include breakpoint(medium) {
+        max-width: calc(#{$content-width} + (#{$spacing-unit * 2}));
+        margin: 0 auto;
+      }
+    }
 }
 
 footer {
@@ -124,17 +127,6 @@ footer {
   }
 }
 
-header#site-header, main, footer {
-    .wrapper {
-      @include breakpoint(medium) {
-        max-width: calc(#{$content-width} + (#{$spacing-unit * 2}));
-        padding-right: $spacing-unit;
-        padding-left: $spacing-unit;
-        margin: 0 auto;
-      }
-    }
-}
-
 #site-menu{
     background: none;
     ul{
@@ -145,6 +137,53 @@ header#site-header, main, footer {
             margin-right: .5rem;
         }
     }
+}
+
+#content {
+    padding: $spacing-unit;
+}
+
+#sidebar {
+  background: $palette-light-color;
+  padding: $spacing-unit;
+  color: $palette-white-color;
+  h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 3.3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    &:not(:first-child){
+      margin-top:2.5rem;
+    }
+  }
+
+  a {color: $palette-white-color;}
+  #socialLinks .column {
+    .facebook {background: url(../assets/images/facebookIcon.png) no-repeat; background-size: contain;}
+    .instagram {background: url(../assets/images/instaIcon.png) no-repeat; background-size: contain;}
+    .rss {background: url(../assets/images/rssIcon.png) no-repeat; background-size: contain;}
+    a {
+      display: block;
+      min-height: 70px;
+      text-indent: -300000px;
+      background: $palette-dark-color;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    @include breakpoint(small only) {
+      margin-bottom: $mobile-pad * 2;
+    }
+  }
+
+  #recentPosts {
+    margin:0;
+    li {
+      list-style:none;
+      padding-bottom:5px;
+    }
+  }
+
 }
 
 // Typography
