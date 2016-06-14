@@ -32,13 +32,7 @@ The first post on a blog is sometimes the hardest. Do we introduce ourselves? I 
     <a href="#" class="accordion-title"><h3>Q: "What kind of bike is that?"</h3></a>
     <div class="accordion-content clearfix" data-tab-content>
     	<img src="/assets/images/grantoBike.jpg" class="float-right" style="width:26rem;" alt="">
-    	A: 2014 Triumph Thruxton. Her name is Betty and Kristen get's mad when I call the bike "My number one main bitch".
-    </div>
-  </li>
-  <li class="accordion-item" data-accordion-item>
-    <a href="#" class="accordion-title"><h3>Q: "What are you drinking?"</h3></a>
-    <div class="accordion-content clearfix" data-tab-content>
-    	A: Beer. It's almost always beer.
+    	A: 2014 Triumph Thruxton. Her name is Betty and Kristen get's mad when I call the bike "My number one main bitch". Sadly on May 10th 2016 I was cut off by a car and had to dump the bike to avoid an accident. The bike was written off.
     </div>
   </li>
 </ul>
