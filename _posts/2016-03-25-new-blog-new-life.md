@@ -32,7 +32,7 @@ The first post on a blog is sometimes the hardest. Do we introduce ourselves? I 
     <a href="#" class="accordion-title"><h3>Q: "What kind of bike is that?"</h3></a>
     <div class="accordion-content clearfix" data-tab-content>
     	<img src="/assets/images/grantoBike.jpg" class="float-right" style="width:26rem;" alt="">
-    	A: 2014 Triumph Thruxton. Her name is Betty and Kristen get's mad when I call the bike "My number one main bitch". Sadly on May 10th 2016 I was cut off by a car and had to dump the bike to avoid an accident. The bike was written off.
+    	A: 2014 Triumph Thruxton. Her name is Betty and Kristen get's mad when I call the bike "My number one main bitch". Sadly on May 10th 2016 I was cut off by a car and had to dump the bike to avoid an accident. The bike was written off. I guess I don't actually need this question here to be honest. There's no pictures of it on this blog... Except one.
     </div>
   </li>
 </ul>
